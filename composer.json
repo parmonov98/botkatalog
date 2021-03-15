@@ -1,0 +1,20 @@
+{
+    "name": "parmonov98/botkatalog",
+    "type": "project",
+    "description": "BotKatalogBot",
+    "authors": [
+        {
+            "name": "Murod",
+            "email": "parmonov98@yandex.ru"
+        }
+    ],
+    "require": {
+    	"php": ">=7.4.1"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+      "RandomPassword\\": "src/RandomPassword/"
+    }
+    }
+}
